@@ -1,4 +1,4 @@
-wms_gui
+WMS_GUI
 =======
 
-Gui for WMS
+Graphical user interface for Wug Management System.
