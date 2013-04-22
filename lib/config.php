@@ -1,5 +1,5 @@
 <?php
 $DBUSER = 'wms';
 $DBPASS = 'wms';
-$DBHOST = 'mysql';
+$DBHOST = 'localhost';
 $DBNAME = 'wms';
