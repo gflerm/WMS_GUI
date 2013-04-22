@@ -1,5 +1,3 @@
-//wrapper for db acccess for WMS_GUI
-
 <?php
 class WMS {
     private $_db;
