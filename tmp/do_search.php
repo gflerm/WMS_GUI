@@ -9,7 +9,7 @@ if (isset($_POST['search'])) {
     // never trust what user wrote! We must ALWAYS sanitize user input
     $word = mysql_real_escape_string($_POST['search']);
     $word = htmlentities($word);
-    $word = $word . '%';
+    $word = '%' . $word . '%';
     $name = $word;
     // build your search query to the database
     $sql = 'select name, os from device where name like :name order by name';
