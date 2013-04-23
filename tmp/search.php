@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>CTWUG WMS</title>
+<title>CTWUG WMS DASHBOARD</title>
 <link rel="stylesheet" type="text/css" href="my.css">
  
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
