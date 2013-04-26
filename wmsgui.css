@@ -4,7 +4,7 @@ body{
 	background-attachment:fixed;
 	background-position:right top; 
 	background-size: 8%;
-	background-color: rgba(150,50,150,0.1);
+	background-color: rgba(0,150,0,1);
 }
 #header-text{
 	font-weight: bold;
@@ -221,7 +221,7 @@ a.notificationIcons:hover span {
         top:40px; /* distance to the bottom of the browser */
         border: 1px solid #111111;
         border-bottom:none;
-        background: rgba(0,0,0,0.5);
+        background: rgba(0,0,0,0.25);
         border-radius: 0px 0px 7px 7px; /*top-left, top-right, bottom-right, bottom-left*/
 }
 #header_menu li:hover li { /* items in Programs menu */
