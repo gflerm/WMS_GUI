@@ -6,6 +6,13 @@ body{
 	background-size: 10%;
 	background-color: rgba(150,50,150,0.1);
 }
+#header-text{
+	font-weight: bold;
+	color: black;
+	font-size: 38px;
+	text-align: center;
+	
+}
 #header{
 	position: fixed; /* the footer must stick to the bottom of the page, the fixed positionning is here necessary. */
 	top: 61px;
@@ -25,13 +32,7 @@ body{
 	box-shadow: inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
 }
 
-#header-text{
-	font-weight: bold;
-	color: black;
-	font-size: 38px;
-	text-align: center;
-	
-}
+
 #footer{
         position: fixed; /* the footer must stick to the bottom of the page, the fixed positionning is here necessary. */
         bottom: 0px;
