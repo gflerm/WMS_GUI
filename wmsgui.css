@@ -190,6 +190,23 @@ a.notificationIcons:hover span {
         color: #ffffff; /*gray to white looks like it glows*/
 }
 
+/* used for the home button, text is here hidden and replaced by an image */
+#heade_menu .homeButton {
+    padding:5px 8px 0px 14px;
+    border:none;
+    background:none;
+}
+#header_menu .homeButton a { /* used for the home button, text is replaced by an image */
+    background:url("img/home.png") top left no-repeat;
+    width:36px;
+    height:30px;
+}
+#header_menu li.homeButton:hover {
+    background:none;
+}
+#header_menu li.homeButton a:hover {
+    background:url("img/home2.png") top left no-repeat;
+}
 
 /* used for the home button, text is here hidden and replaced by an image */
 #footer_menu .homeButton {
